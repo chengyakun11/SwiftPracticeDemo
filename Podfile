@@ -51,5 +51,7 @@ target 'SwiftPracticeDemo' do
 
   ## 第三方服务
 
-  
+  pod 'SwiftyJSON'
+  pod 'RxSwift'
+
 end

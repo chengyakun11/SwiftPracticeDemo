@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C3A96511F3050E400CBBE13 /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A96501F3050E400CBBE13 /* AlamofireViewController.swift */; };
+		5C3A96531F3050FC00CBBE13 /* KingfisherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A96521F3050FC00CBBE13 /* KingfisherViewController.swift */; };
+		5C3A96551F30512B00CBBE13 /* SnapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A96541F30512B00CBBE13 /* SnapKitViewController.swift */; };
+		5CA5AABE1F306C310062AF49 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5AABC1F306C310062AF49 /* FirstViewController.swift */; };
+		5CA5AABF1F306C310062AF49 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA5AABD1F306C310062AF49 /* SecondViewController.swift */; };
 		5CB1816A1F32CA9D00FC19A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB181691F32CA9D00FC19A1 /* AppDelegate.swift */; };
 		5CB1816C1F32CA9D00FC19A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB1816B1F32CA9D00FC19A1 /* ViewController.swift */; };
 		5CB1816F1F32CA9D00FC19A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB1816D1F32CA9D00FC19A1 /* Main.storyboard */; };
@@ -37,6 +42,11 @@
 /* Begin PBXFileReference section */
 		377500D95AFEB2E61E6DD3CD /* Pods-SwiftPracticeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPracticeDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPracticeDemo/Pods-SwiftPracticeDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		44C6C540A01FF3C60273EADC /* Pods-SwiftPracticeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftPracticeDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftPracticeDemo/Pods-SwiftPracticeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5C3A96501F3050E400CBBE13 /* AlamofireViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
+		5C3A96521F3050FC00CBBE13 /* KingfisherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KingfisherViewController.swift; sourceTree = "<group>"; };
+		5C3A96541F30512B00CBBE13 /* SnapKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapKitViewController.swift; sourceTree = "<group>"; };
+		5CA5AABC1F306C310062AF49 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		5CA5AABD1F306C310062AF49 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		5CB181661F32CA9D00FC19A1 /* SwiftPracticeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPracticeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CB181691F32CA9D00FC19A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CB1816B1F32CA9D00FC19A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,11 +123,16 @@
 			isa = PBXGroup;
 			children = (
 				5CB181691F32CA9D00FC19A1 /* AppDelegate.swift */,
+				5CA5AABC1F306C310062AF49 /* FirstViewController.swift */,
+				5CA5AABD1F306C310062AF49 /* SecondViewController.swift */,
 				5CB1816B1F32CA9D00FC19A1 /* ViewController.swift */,
 				5CB1816D1F32CA9D00FC19A1 /* Main.storyboard */,
 				5CB181701F32CA9D00FC19A1 /* Assets.xcassets */,
 				5CB181721F32CA9D00FC19A1 /* LaunchScreen.storyboard */,
 				5CB181751F32CA9D00FC19A1 /* Info.plist */,
+				5C3A96501F3050E400CBBE13 /* AlamofireViewController.swift */,
+				5C3A96521F3050FC00CBBE13 /* KingfisherViewController.swift */,
+				5C3A96541F30512B00CBBE13 /* SnapKitViewController.swift */,
 			);
 			path = SwiftPracticeDemo;
 			sourceTree = "<group>";
@@ -313,10 +328,12 @@
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
 				"${BUILT_PRODUCTS_DIR}/RKNotificationHub/RKNotificationHub.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftHEXColors/SwiftHEXColors.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftNotificationCenter/SwiftNotificationCenter.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/UITableView+FDTemplateLayoutCell/UITableView_FDTemplateLayoutCell.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -329,10 +346,12 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RKNotificationHub.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHEXColors.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftNotificationCenter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITableView_FDTemplateLayoutCell.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,6 +385,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CB1816C1F32CA9D00FC19A1 /* ViewController.swift in Sources */,
+				5C3A96511F3050E400CBBE13 /* AlamofireViewController.swift in Sources */,
+				5C3A96551F30512B00CBBE13 /* SnapKitViewController.swift in Sources */,
+				5CA5AABE1F306C310062AF49 /* FirstViewController.swift in Sources */,
+				5CA5AABF1F306C310062AF49 /* SecondViewController.swift in Sources */,
+				5C3A96531F3050FC00CBBE13 /* KingfisherViewController.swift in Sources */,
 				5CB1816A1F32CA9D00FC19A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
